@@ -1,0 +1,34 @@
+# === Streamlit Configuration & Secrets ===
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# === Local Python Environment & Virtual Environments ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === IDEs and Code Editors ===
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === Local Document & Index Cache ===
+# Prevents raw uploaded PDFs and processed FAISS vectors from syncing
+temp_docs/
+faiss_indexes/
+
+# === OS & System Specific Files ===
+.DS_Store
+Thumbs.db
+
